@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    margin: 0;
+  }
+header{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    background-color: #000;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    padding-top: 20px;
+}
+ul li{
+    display: inline;
+    direction: none;
+    padding: 0px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.logo img{
+    margin: 15px 15px;
+}
+.banner__content{
+    position: absolute;
+    margin: 150px 0px 0px 500px;
+}
+.banner__action{
+    margin-top: 20px;
+}
+.banner__img img{
+    width: 1475px;   
+}
+.image img{
+    width: 250px;
+    height: 250px;
+}
+.travel-pick{
+    text-align: center;
+}
+.travel-pick__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 100px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 150px;
+}
+.about__title{
+    font: bold;
+}
+.banner-more img{
+    width: 1475px;
+}
+.card{
+    position: absolute;
+    margin-top: 100px;
+}
